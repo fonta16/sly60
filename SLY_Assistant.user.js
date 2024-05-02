@@ -25,9 +25,10 @@
 	let customWriteRPCs = [];
 
     let saRPCs = [
-        'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
-		'https://rpc.hellomoon.io/57dbc69d-7e66-4454-b33e-fa6a4b46170f', //Hello Moon
-        'https://staratl-mainc06-2415.mainnet.rpcpool.com', //Triton
+        'https://solana-mainnet.api.syndica.io/api-token/38bHMSXWjAQ4KGJf3HMGxsFZaqXBwg3QDhSzvdpUozmFovCZ1joyKQTCRznSLSDu1RywysDVt7BF5wVyKdqe73dztzX9CyXcYBMjTPWEHP56zaMD4uMQyDxpLfLZkkTQmJN1HrHqdshoFVabt8NzT9N7ndfENV6esKKoR2nUqarQh8ehGKv2msG2frJKxKJq9LLBG4KdMrPvEcGCif588i3hGhfouJjR8g4wF2XCHFeJt3CmrgM65mkYPKn6hx2fEF2f1PGEf9pFZTrSnCLYz3KfcRX7BinS3mGQRP1S4XRrgqmnTdG458a9gCRfCiYNNMdG2S8NwQGZj2vQC2i36s2t3U5BV5cvkSTfiJUZwtrMsjRGNe6M24gFVPBpCAdm7iAZx3wvgXoEFoujpNf1XRnHpQTMVisU5XWJbi5pBSXnm5gux4F2FUbpEJHQertouejid36o17KvPc4s9Pvkv9Ue9CHpyfMd8YWL6ih64nCtAGe14Q79Y6fo7kzUG', //syndyca
+	'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
+	//'https://rpc.hellomoon.io/57dbc69d-7e66-4454-b33e-fa6a4b46170f', //Hello Moon
+        
         //'https://mainnet.helius-rpc.com/?api-key=735486d8-ae86-4d26-829c-e34a2210d119', //Helius
 	];
     let readRPCs = customReadRPCs.concat(saRPCs);
